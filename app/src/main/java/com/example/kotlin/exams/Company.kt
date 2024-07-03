@@ -69,10 +69,11 @@ fun main(){
         var employee = Employee(id,name,age)
         c1.addEmployee(employee)
     }
+
     println("Enter the total number of Departments : ")
     var m = readln().toInt()
 
-    for(j in 0..<m){
+    for (j in 0..<m) {
         println("Enter the Department Name : ")
         var department = readln()
         c1.addDepartment(department)
